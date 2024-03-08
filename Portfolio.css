@@ -329,3 +329,28 @@ background: linear-gradient(to bottom, purple, black);
     background-color: ;
 } */
 
+
+
+
+
+
+
+
+.up {
+    position: fixed;
+    padding: 10px;
+    background-color: purple;
+    bottom: 10px;
+    right: -50px;
+    border-radius: 50%;
+    border: none;
+    color: rgb(4, 7, 71);
+    font-size: 15px;
+    cursor: pointer;
+    user-select: none;
+    transition: 1s;
+
+}
+.up.show {
+    right: 10px;
+}
