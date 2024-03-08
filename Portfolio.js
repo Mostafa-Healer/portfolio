@@ -5,6 +5,8 @@ window.onscroll = function () {
     if(window.scrollY >= section_Languages.offsetTop -200 ) {
         span.forEach( (span) => {
             span.style.width = span.dataset.width ;
+            // span.style.vehavior = 'smooth' ;
+            span.style.transition = '1s' ;
         })
     }
 };
